@@ -92,7 +92,7 @@ nav.active .navbar{
 }
 nav.active > .navbar > ul > li > a {color: white; font: bold;}
 nav.active > .navbar > ul > li::before {background: white; font: bold;}
-nav.active > .navbar > ul > li > a:hover {color: rgba(27, 16, 88); font: bold;}
+nav.active > .navbar > ul > li > a:hover {color: rgba(255, 255, 255, 0.623); font: bold;}
 nav > .navbar > button{
   border-radius: 7%;
   padding: 0.4%;
@@ -134,7 +134,7 @@ nav > .navbar > button{
 .navbar > ul > li:hover::before{
   width: 100%;
 }
-.navbar > ul > li > a:hover{color: rgba(101, 91, 156, 0.623); font: bold;}
+.navbar > ul > li > a:hover{color: rgba(255, 255, 255, 0.623); font: bold;}
 /*---------------End Navbar--------------*/
 
 /*-- Start Sidenav Style --*/

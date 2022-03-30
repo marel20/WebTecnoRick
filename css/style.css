@@ -12,18 +12,30 @@
               max-width: 96%;
               position: fixed;
           }
+          .contentTrends > iframe{
+            display: none;
+          }
+          .contentTrends > .card{
+            width: 100%;
+          }
       }
       
               /*-- 768px --*/
       @media (min-width: 600px) and (max-width: 987px) {
         header > nav > .navbar {
           display: none;
-      }
-      #sidenav {
-          display: block;
-          max-width: 98%;
-          position: fixed;
-      }
+        }
+        #sidenav {
+            display: block;
+            max-width: 98%;
+            position: fixed;
+        }
+        .contentTrends > iframe{
+          display: none;
+        }
+        .contentTrends > .card{
+          width: 100%;
+        }
       }
       
               /*-- 1279px --*/

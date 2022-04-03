@@ -12,13 +12,7 @@
               max-width: 96%;
               position: fixed;
           }
-          .contentTrends > iframe{
-            display: none;
-          }
-          .contentTrends > .card{
-            width: 100%;
-          }
-      }
+        }
       
               /*-- 768px --*/
       @media (min-width: 600px) and (max-width: 987px) {
@@ -30,12 +24,10 @@
             max-width: 98%;
             position: fixed;
         }
-        .contentTrends > iframe{
-          display: none;
+        .contentTrends > .textPrivacy{
+          width: 75%;
         }
-        .contentTrends > .card{
-          width: 100%;
-        }
+
       }
       
               /*-- 1279px --*/
@@ -174,13 +166,18 @@ nav > .navbar > button{
 
 
 /*--------Start Section Noticias------------*/
-.contentTrends > .card > img{width: auto;}
-.contentTrends > .card{
-  width: 65%;
-  margin: 3% auto;
+.contentTrends > .imgPrivacy > img{width: 100%; height: 400px;}
+.contentTrends > .imgPrivacy{
+  margin: 5% auto;
 }
-.contentTrends > iframe{
-  width: 30%;
+.contentTrends > .textPrivacy{
+  text-justify: auto;
+  position: absolute;
+  color: #ffffff;
+  margin: 10% 3%;
+}
+.contentTrends > .iframe{
+  margin: 5% auto;
 }
 .btn-wsp{
   position: fixed;

@@ -208,8 +208,26 @@ nav > .navbar > button{
 
 
 /*----------Start Page Empresa-----------*/
+.contentCards{
+margin: 3% auto;
+}
 
+.cardEmpresa{
+  max-width: 840px;
+  margin: 0 20%;
+}
 
 
 
 /*-----------End Page Empresa------------*/
+
+/*----------Start Page Contacto-----------*/
+.form{
+  margin: 3% auto;
+  max-width: 900px;
+}
+.titleForm{
+  text-align: center;
+  margin: 2% auto;
+}
+/*-----------End Page Contacto------------*/

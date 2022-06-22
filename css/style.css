@@ -174,12 +174,6 @@ nav > .navbar > button{
 .contentTrends > .imgPrivacy{
   margin: 5% auto;
 }
-.contentTrends > .textPrivacy{
-  text-justify: auto;
-  position: absolute;
-  color: #ffffff;
-  margin: 10% 3%;
-}
 .contentTrends > .iframe{
   margin: 5% auto;
 }
@@ -213,21 +207,21 @@ margin: 3% auto;
 }
 
 .cardEmpresa{
-  max-width: 840px;
-  margin: 0 20%;
+  max-width: 940px;
+  margin: 5% 20%;
 }
-
-
 
 /*-----------End Page Empresa------------*/
 
 /*----------Start Page Contacto-----------*/
-.form{
-  margin: 3% auto;
-  max-width: 900px;
-}
-.titleForm{
+.title{
   text-align: center;
-  margin: 2% auto;
+  margin: 2% auto 3% auto;
+}
+.adress > div{
+  margin-top: 8%;
+}
+.adress > div > p > a{
+  color: #000000b6;
 }
 /*-----------End Page Contacto------------*/

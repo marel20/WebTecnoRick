@@ -1,9 +1,10 @@
 * {margin: 0; 
     padding: 0;
 }
+
 /*-- Start Media queries --*/
         /*-- 480px --*/
-        @media (min-width: 0px) and (max-width: 599px) {
+        @media (min-width: 0px) and (max-width: 767px) {
           header > nav > .navbar {
               display: none;
           }
@@ -15,10 +16,16 @@
           .iframe{
             display: none;
           }
+          .contentCards > .cardEmpresa{
+            display: none;
+          }
+          .contentCards > .cardsMobile{
+            display: block;
+          }
         }
       
               /*-- 768px --*/
-      @media (min-width: 600px) and (max-width: 987px) {
+      @media (min-width: 768px) and (max-width: 987px) {
         header > nav > .navbar {
           display: none;
         }
@@ -30,7 +37,12 @@
         .iframe{
           display: none;
         }
-
+        .contentCards > .cardEmpresa{
+          display: block;
+        }
+        .contentCards > .cardsMobile{
+          display: none;
+        }
       }
       
               /*-- 1279px --*/
@@ -42,6 +54,12 @@
           #sidenav{
               display: none;
           }
+          .contentCards > .cardEmpresa{
+            display: block;
+          }
+          .contentCards > .cardsMobile{
+            display: none;
+          }
       }
       
               /*-- 1280+px --*/
@@ -52,6 +70,12 @@
           }
           #sidenav {
               display: none;
+          }
+          .contentCards > .cardEmpresa{
+            display: block;
+          }
+          .contentCards > .cardsMobile{
+            display: none;
           }
       }
 /*----------End Media Queries-----*/

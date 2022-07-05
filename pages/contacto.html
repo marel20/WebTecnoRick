@@ -20,7 +20,6 @@
     <title>Tecno Rick</title>
 </head>
 <body>
-    <div id="inicio" class="container-fluid">
         <header>
             <!--Start Navbar-->
             <nav>
@@ -94,10 +93,11 @@
                 <!-- Background image -->
             <div
                 class="p-5 text-center bg-image"
-                style="background-image: url('../assets/img/contacto.jpg'); margin-top: 6%; height: 450px;">
+                style="background-image: url('../assets/img/contacto.jpg'); height: 450px;">
                 <div class="mask" style="background-color: rgba(0, 0, 0, 0.253);"></div>
             </div>
               <!-- Background image -->
+    <div id="inicio" class="container-fluid">
 
               <!--Start Form-->
                 <div class="title">
@@ -137,12 +137,6 @@
                                 <input type="text" id="form6Example3" class="form-control" />
                                 <label class="form-label" for="form6Example3">Nombre de la empresa</label>
                             </div>
-
-                            <!-- Text input -->
-                            <select class="select">
-                                <option value="1">Presupuestos</option>
-                                <option value="2">Consultas</option>
-                            </select>
                         
                             <!-- Text input -->
                             <div class="form-outline mb-4">
@@ -161,6 +155,16 @@
                                 <input type="number" id="form6Example6" class="form-control" />
                                 <label class="form-label" for="form6Example6">Teléfono</label>
                             </div>
+
+                            <h6>Seleccione una opción:</h6>
+
+                            <div class="group">
+                                <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked />
+                                <label class="btn btn-secondary check1" for="option1">Consultas</label>
+                              
+                                <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off" />
+                                <label class="btn btn-secondary" for="option2">Presupuestos</label>
+                            </div> <br>
                         
                             <!-- Message input -->
                             <div class="form-outline mb-4">
@@ -169,7 +173,7 @@
                             </div>
                         
                             <!-- Submit button -->
-                            <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
+                            <button type="submit" class="btn submit btn-primary btn-block mb-4">Enviar</button>
                         </form>
                     </div>
                 </div>
@@ -197,6 +201,9 @@
                         width="100%" height="250" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
+
+    </div>
+
 
             <!--Start Footer-->
             <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.2);">
@@ -256,7 +263,6 @@
                 <!-- Copyright -->
               </footer>
             <!--End Footer-->
-    </div>
 
 
 

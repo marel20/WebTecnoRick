@@ -25,6 +25,13 @@ html > body{
           .contentCards > .cardsMobile{
             display: block;
           }
+          .imgPrivacy > .card{
+            height: 40%;
+          }
+          .imgPrivacy > .card > .card-body > p{
+            width: 100%;
+            font-size: 13px;
+          }
         }
       
               /*-- 768px --*/
@@ -46,6 +53,12 @@ html > body{
         .contentCards > .cardsMobile{
           display: none;
         }
+        .imgPrivacy > .card{
+          height: 40%;
+        }
+        .imgPrivacy > .card > .card-body > p{
+          width: 40%;
+        }
       }
       
               /*-- 1279px --*/
@@ -63,6 +76,12 @@ html > body{
           .contentCards > .cardsMobile{
             display: none;
           }
+          .imgPrivacy > .card{
+            height: 28vw;
+          }
+          .imgPrivacy > .card > .card-body > p{
+            width: 40%;
+          }
       }
       
               /*-- 1280+px --*/
@@ -79,6 +98,13 @@ html > body{
           }
           .contentCards > .cardsMobile{
             display: none;
+          }
+          .imgPrivacy > .card{
+            height: 28vw;
+          }
+          .imgPrivacy > .card > .card-body > p{
+            width: 40%;
+            font-size: 20px;
           }
       }
 /*----------End Media Queries-----*/

@@ -18,13 +18,13 @@
         $('#wsp').on('mouseout', fnCambiaBtn2);
 
         function fnCambiaBtn(){
-            console.log('entre a la funcion')
+            //console.log('entre a la funcion')
         $('#whatsapp').removeClass('visible').addClass('oculto');
         $('#wsp').removeClass('oculto').addClass('visible');
         }
 
         function fnCambiaBtn2(){
-            console.log('entreeeee')
+            //console.log('entreeeee')
         $('#wsp').removeClass('visible').addClass('oculto');
         $('#whatsapp').removeClass('oculto').addClass('visible');
         }
@@ -48,5 +48,47 @@
   });
 
   /*-------- End Picture Galery ----------*/
+
+  /*-------- Start List Budgets ---------*/
+  $(document).ready(function(){
+
+    $('#add').on('click', fnSumar);
+
+    function fnSumar() {
+       // console.log('entramos en sumar')
+        objeto = $('#descripcion').val();
+        cantidad = $('#cantidad').val();
+
+        $('#col1').append(objeto + "<br>");
+        $('#col2').append(cantidad + "<br>");
+        
+    }
+})
+
+  /*-------- Start List Budgets ---------*/
+
+  /*-------- Start Button Budgets -------*/ 
+  
+  $(document).ready(function(){
+
+    $('#option2').on('click', fnBudgets);
+    $('#option1').on('click', fnMessage);
+
+    function fnBudgets(){
+        //console.log('entre a la funcion')
+    $('#message').removeClass('visible').addClass('oculto');
+    $('#budgets').removeClass('oculto').addClass('visible');
+    }
+
+    function fnMessage(){
+        //console.log('entreeeee')
+    $('#budgets').removeClass('visible').addClass('oculto');
+    $('#message').removeClass('oculto').addClass('visible');
+    }
+
+})
+
+  /*-------- End Button Budgets -------*/ 
+
   
   

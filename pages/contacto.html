@@ -167,9 +167,27 @@
                             </div> <br>
                         
                             <!-- Message input -->
-                            <div class="form-outline mb-4">
+                            <div id="message" class="form-outline mb-4 visible">
                                 <textarea class="form-control" id="form6Example7" rows="4"></textarea>
                                 <label class="form-label" for="form6Example7">Su mensaje</label>
+                            </div>
+
+                            <div id="budgets" class="listBudgets oculto">
+                                <div class="titleBudgets">
+                                    <h5 class="col-lg-6 col-md-6 mb-4 col-6">Cod. Producto</h5>
+                                    <h5 class="col-lg-6 col-md-6 mb-4 col-6">Cantidad</h5>
+                                </div>
+                                <div class="titleBudgets">
+                                    <input type="text" class="col-lg-3 col-md-3 mb-4 col-5" id="descripcion" value="">
+                                    <input type="number" class="col-lg-3 col-md-3 mb-4 col-5" id="cantidad" value="">
+                                    <input type="button" class="col-lg-2 col-md-2 mb-4 col-2" id="add" value="+">
+                        
+                                </div>
+
+                                <div id="annotator" class="articles">
+                                    <h5 id="col1" class="col-lg-5 col-md-5 mb-4 col-5"></h5>
+                                    <h5 id="col2" class="col-lg-5 col-md-5 mb-4 col-5 text-center"></h5>
+                                </div>
                             </div>
                         
                             <!-- Submit button -->
@@ -181,7 +199,7 @@
               <!--End Form-->
 
 
-              <div id="whatsapp" class="visible">
+            <div id="whatsapp" class="visible">
                 <a href="https://wa.me/5493471416804" class="btn-wsp" target="_blank">
                 <i class="icon-whatsapp"></i>
                 <img src="../assets/icons/whatsapp.png" alt="logowsp">

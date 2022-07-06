@@ -32,6 +32,9 @@ html > body{
             width: 100%;
             font-size: 13px;
           }
+          .titleBudgets > h5{
+            font-size: 16px;
+          }
         }
       
               /*-- 768px --*/
@@ -58,6 +61,9 @@ html > body{
         }
         .imgPrivacy > .card > .card-body > p{
           width: 40%;
+        }
+        .titleBudgets > h5{
+          font-size: 16px;
         }
       }
       
@@ -352,5 +358,36 @@ form > .submit:hover{
 }
 .btn:active{
   background-color: rgba(27, 16, 88, 0.966) !important;
+}
+.titleBudgets{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.titleBudgets > input{
+  color: rgba(27, 16, 88, 0.966);
+  font-weight: bold;
+}
+.articles{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start ;
+  align-items: flex-start;
+}
+.listBudgets > div > h5{
+  color: rgba(27, 16, 88, 0.966);
+  font-weight: bold;
+}
+#add{
+  border: rgba(27, 16, 88, 0.966) solid 2px;
+  color: rgba(27, 16, 88, 0.966);
+  border-radius: 10px;
+}
+.listBudgets{
+  border: rgba(27, 16, 88, 0.349) solid 1px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 2% auto;
 }
 /*-----------End Page Contacto------------*/
